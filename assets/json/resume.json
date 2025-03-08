@@ -26,11 +26,20 @@
     {
       "name": "LASTIG - IGN / ENSG",
       "position": "PhD student in Computer Vision / Deep Learning on geographical data",
-      "url": "https://example.com",
+      "url": "",
       "startDate": "2023-09-01",
       "endDate": "2026-09-01",
-      "summary": "",
+      "summary": "Change Detection in aerial images for monitoring the evolution of the territory.",
       "highlights": ["Computer Vision","Remote Sensing","Deep Learning"]
+    },
+    {
+      "name": "Valeo",
+      "position": "Laser Scanner Project Assistant",
+      "url": "",
+      "startDate": "2021-11-01",
+      "endDate": "2022-10-01",
+      "summary": "Working on the future version of SCALA. Transversal and operational missions, monitoring of the production. Specific focus on 3D computer vision algorithms to enhance the sensor capabilities.",
+      "highlights": ["LiDAR","3D Computer Vision"]
     }
   ],
   "volunteer": [
