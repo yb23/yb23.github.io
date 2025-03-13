@@ -414,12 +414,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-article-was-accepted-to-cvpr-2025-more-details-will-be-available-within-the-next-weeks",
           title: 'Our article was accepted to CVPR 2025 ! (more details will be available...',
           description: "",
-          section: "News",},{id: "projects-the-change-you-want-to-detect",
-          title: 'The Change You Want To Detect',
-          description: "Semantic Change Detection In Earth Observation With Hybrid Data Generation",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
@@ -459,6 +454,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-the-change-you-want-to-detect",
+          title: 'The Change You Want To Detect',
+          description: "Semantic Change Detection In Earth Observation With Hybrid Data Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hyscdg/";
             },},{
         id: 'social-email',
         title: 'email',
