@@ -414,9 +414,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-article-was-accepted-to-cvpr-2025-more-details-will-be-available-within-the-next-weeks",
           title: 'Our article was accepted to CVPR 2025 ! (more details will be available...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-the-change-you-want-to-detect",
+          title: 'The Change You Want To Detect',
+          description: "Semantic Change Detection In Earth Observation With Hybrid Data Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
