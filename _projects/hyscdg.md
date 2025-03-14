@@ -22,8 +22,8 @@ In such a context, simulation and especially synthetic data generation appears a
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img-comparison-slider>
-          {% include figure.liquid path="assets/img/IMG2.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
-          {% include figure.liquid path="assets/img/IMG1.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
+          {% include figure.liquid path="assets/img/fsc/002292_0.png" class="img-fluid rounded z-depth-1" slot="first" %}
+          {% include figure.liquid path="assets/img/fsc/002292_1.png" class="img-fluid rounded z-depth-1" slot="second" %}
         </img-comparison-slider>
     </div>
     <div class="col-sm mt-3 mt-md-0">
