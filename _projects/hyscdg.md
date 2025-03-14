@@ -45,7 +45,7 @@ In such a context, simulation and especially synthetic data generation appears a
 
 ### What we propose : hybrid data generation and efficient transfer learning
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/teaser.png" title="The whole process" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
