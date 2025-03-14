@@ -17,9 +17,31 @@ Training large deep learning models on these data is possible, but doesn't offer
 In such a context, simulation and especially synthetic data generation appears as a really good solution to mitigate these difficulties. 
 
 
-## A large-scale hybrid dataset for very high resolution semantic change detection
+### **FSC-180k** : A large-scale hybrid dataset for very high resolution semantic change detection
 
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img-comparison-slider>
+          {% include figure.liquid path="assets/img/IMG2.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
+          {% include figure.liquid path="assets/img/IMG1.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
+        </img-comparison-slider>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img-comparison-slider>
+          {% include figure.liquid path="assets/img/IMG2.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
+          {% include figure.liquid path="assets/img/IMG1.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
+        </img-comparison-slider>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img-comparison-slider>
+          {% include figure.liquid path="assets/img/IMG2.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
+          {% include figure.liquid path="assets/img/IMG1.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
+        </img-comparison-slider>
+    </div>
+</div>
+<div class="caption">
+    Samples of images pairs from our **FSC-180k** dataset. Left image is generated from the original image (on the right) by our **HySCDG** pipeline.
+</div>
 
 <img-comparison-slider>
   {% include figure.liquid path="assets/img/IMG1.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
