@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 Semantic Change Detection (SCD) in remote sensing comes with its fair share of challenges. Especially when tackling the task on very high resolution pairs of aerial images.
-Semantic Change datasets as HRSCD [{% cite hrscd %}], SECOND [{% cite second %}] {% reference second %} or HiUCD [{% cite hiucd %}] ., 
+Pixel-level annotated Semantic Change datasets as HRSCD [{% cite hrscd %}], SECOND [{% cite second %}] or HiUCD [{% cite hiucd %}] exists but each comes with its drawbacks. Lack of diversity, scarce and coarse annotations, limited resolution, etc.  
 
     ---
     layout: page
