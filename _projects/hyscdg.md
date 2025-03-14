@@ -6,12 +6,26 @@ img: assets/img/teaser.png
 importance: 1
 category: work
 related_publications: true
+images:
+    compare: true
+    slider: true
 ---
 
 Semantic Change Detection (SCD) in remote sensing comes with its fair share of challenges. Especially when tackling the task on very high resolution pairs of aerial images.
 Pixel-level annotated Semantic Change datasets as HRSCD [{% cite hrscd %}], SECOND [{% cite second %}] or HiUCD [{% cite hiucd %}] exists but each comes with its drawbacks. Lack of diversity, scarce and coarse annotations, limited resolution, etc.  
 Training large deep learning models on these data is possible, but doesn't offer any generalization capacity. Annotating large set of data would require giant amount of time.
 In such a context, simulation and especially synthetic data generation appears as a really good solution to mitigate these difficulties. 
+
+
+## A large-scale hybrid dataset for very high resolution semantic change detection
+
+
+
+<img-comparison-slider>
+  {% include figure.liquid path="assets/img/IMG1.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
+  {% include figure.liquid path="assets/img/IMG2.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
+</img-comparison-slider>
+
 
     ---
     layout: page
