@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Ingénieur des Mines</p>
+    <p>Ingénieur Polytechnicien (X2016) - Corps des Mines</p>
     <p>2nd year PhD Student</p>
-    <p>LASTIG - IGN / ENSG</p>
+    <p>LASTIG | IGN / ENSG</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
