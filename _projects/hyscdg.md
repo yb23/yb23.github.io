@@ -119,6 +119,21 @@ In all cases, the performance is improved thanks to the pre-training, proof of t
 </div>
 
 
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <h6 class="text-muted">And visually...</h6>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-sm-8 mx-auto">
+        {% include figure.liquid loading="eager" path="assets/img/prediction_second.jpg" title="Predictions on SECOND dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Predictions obtained on SECOND either without pre-training or after pre-training on SyntheWorld or \textbf{FSC-180k} in sequential learning mode.
+</div>
+
+
 
 
 
