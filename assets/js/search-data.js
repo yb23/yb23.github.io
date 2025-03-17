@@ -414,12 +414,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-article-was-accepted-to-cvpr-2025-more-details-will-be-available-within-the-next-weeks",
           title: 'Our article was accepted to CVPR 2025 ! (more details will be available...',
           description: "",
-          section: "News",},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
+          section: "News",},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
