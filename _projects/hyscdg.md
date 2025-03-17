@@ -11,6 +11,23 @@ images:
     slider: true
 ---
 
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <h4><a href="/">Yanis Benidir</a>, <a href="#">Nicolas Gonthier</a>, <a href="">Clément Mallet</a></h4>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <button class="btn btn-info rounded-1"><i class="ai ai-arxiv"></i>Paper</button>
+    </div>
+    <div class="col-auto">
+        <button class="btn btn-info rounded-1"><svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>Code</button>
+    </div>
+    <div class="col-auto">
+        <a href="https://huggingface.co/datasets/Yanis236/fsc-180k" target="_blank"><button class="btn btn-info rounded-1" disabled><img alt="Hugging Face's logo" src="assets/img/huggingface_logo.svg">Dataset</button></a>
+    </div>
+</div>
+
 Semantic Change Detection (SCD) in remote sensing comes with its fair share of challenges. Especially when tackling the task on very high resolution pairs of aerial images.
 Pixel-level annotated Semantic Change datasets as HRSCD [{% cite hrscd %}], SECOND [{% cite second %}] or HiUCD [{% cite hiucd %}] exists but each comes with its drawbacks. Lack of diversity, scarce and coarse annotations, limited resolution, etc.  
 Training large deep learning models on these data is possible, but doesn't offer any generalization capacity. Annotating large set of data would require giant amount of time.
@@ -19,7 +36,7 @@ In such a context, simulation and especially synthetic data generation appears a
 
 ### **FSC-180k** : A large-scale hybrid dataset for very high resolution semantic change detection
 
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
         <img-comparison-slider>
           {% include figure.liquid path="assets/img/fsc/002292_0.png" class="img-fluid rounded z-depth-1" slot="first" %}
@@ -44,7 +61,7 @@ In such a context, simulation and especially synthetic data generation appears a
 </div>
 
 ### What we propose : hybrid data generation and efficient transfer learning
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm-8 mx-auto">
         {% include figure.liquid loading="eager" path="assets/img/teaser.png" title="The whole process" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -55,7 +72,7 @@ In such a context, simulation and especially synthetic data generation appears a
 
 ### Generating changes ? How it works ?
 Leveraging Stable Diffusion and ControlNet through long training on VHR aerial images, we create an end-to-end "change inpainting" pipeline. Diffusion models allow to produce realistic and various textures to fulfill the original image while the control module is responsible for monitoring the semantic composition of the generated image. 
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm-8 mx-auto">
         {% include figure.liquid loading="eager" path="assets/img/pipeline.png" title="The generation pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -81,42 +98,11 @@ In all cases, the performance is improved thanks to the pre-training, proof of t
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Results obtained by evaluating our model (pre-trained either on SyntheWorld or FSC-180k or not) through different transfer learning scenarii on real change detection datasets.
 </div>
 
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
