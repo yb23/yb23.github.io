@@ -18,6 +18,17 @@ images:
 </div>
 <div class="row justify-content-center">
     <div class="col-auto">
+        <h5 class="text-muted">LASTIG<sup>(1)</sup> - IGN<sup>(2)</sup> - ENSG<sup>(3)</sup></h5>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <span class="small">(1) : Lab on Geographic Information Science for sustainable development and smart cities</span>
+    <span class="small">(2) : Institut national de l'information géographique et forestière / French national mapping agency</span>
+    <span class="small">(3) : École nationale des sciences géographiques</span>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-auto">
         <button class="btn btn-info rounded-1"><i class="ai ai-arxiv"></i>Paper</button>
     </div>
     <div class="col-auto">
