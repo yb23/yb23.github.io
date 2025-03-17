@@ -22,9 +22,9 @@ images:
     </div>
 </div>
 <div class="row justify-content-center">
-    <span class="small">(1) : Lab on Geographic Information Science for sustainable development and smart cities</span>
-    <span class="small">(2) : Institut national de l'information géographique et forestière / French national mapping agency</span>
-    <span class="small">(3) : École nationale des sciences géographiques</span>
+    <span class="small">(1) : Lab on Geographic Information Science for sustainable development and smart cities</span><br>
+    <span class="small">(2) : Institut national de l'information géographique et forestière / French national mapping agency</span><br>
+    <span class="small">(3) : École nationale des sciences géographiques</span><br>
 </div>
 
 <div class="row justify-content-center">
