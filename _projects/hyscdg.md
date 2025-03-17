@@ -91,7 +91,7 @@ Leveraging Stable Diffusion and ControlNet through long training on VHR aerial i
     </div>
 </div>
 <div class="caption">
-    $\textbf{\texttt{HySCDG} Pipeline}$ : From a single-temporal dataset composed of one VHR image $I_1$, a semantic map $M_1$, and some openly available labeled instances, we generate a new VHR image $I_2$, a new map $M_2$ and subsequently a change map $C$.
+    $\textbf{HySCDG Pipeline}$ : From a single-temporal dataset composed of one VHR image $I_1$, a semantic map $M_1$, and some openly available labeled instances, we generate a new VHR image $I_2$, a new map $M_2$ and subsequently a change map $C$.
 </div>
 
 
