@@ -40,7 +40,7 @@ In such a context, simulation and especially synthetic data generation appears a
     </div>
 </div>
 <div class="caption">
-    Samples of images pairs from our **FSC-180k** dataset. Left image is generated from the original image (on the right) by our **HySCDG** pipeline.
+    Samples of images pairs from our $\textbf{FSC-180k}$ dataset. Left image is generated from the original image (on the right) by our **HySCDG** pipeline.
 </div>
 
 ### What we propose : hybrid data generation and efficient transfer learning
@@ -61,7 +61,7 @@ Leveraging Stable Diffusion and ControlNet through long training on VHR aerial i
     </div>
 </div>
 <div class="caption">
-    **HySCDG Pipeline** : From a single-temporal dataset composed of one VHR image $I_1$, a semantic map $M_1$, and some openly available labeled instances, we generate a new VHR image $I_2$, a new map $M_2$ and subsequently a change map $C$.
+    $\textbf{\texttt{HySCDG} Pipeline}$ : From a single-temporal dataset composed of one VHR image $I_1$, a semantic map $M_1$, and some openly available labeled instances, we generate a new VHR image $I_2$, a new map $M_2$ and subsequently a change map $C$.
 </div>
 
 
