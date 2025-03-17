@@ -53,6 +53,19 @@ In such a context, simulation and especially synthetic data generation appears a
     This image can also have a caption. It's like magic.
 </div>
 
+### Generating changes ? How it works ?
+Leveraging Stable Diffusion and ControlNet through long training on VHR aerial images, we create an end-to-end "change inpainting" pipeline.
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/pipeline.png" title="The generation pipeline" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    **HySCDG Pipeline** : From a single-temporal dataset composed of one VHR image $I_1$, a semantic map $M_1$, and some openly available labeled instances, we generate a new VHR image $I_2$, a new map $M_2$ and subsequently a change map $C$.
+</div>
+
+
+### Transfer learning to enhance real use-cases change detection
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
