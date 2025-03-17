@@ -45,7 +45,7 @@ In such a context, simulation and especially synthetic data generation appears a
 
 ### What we propose : hybrid data generation and efficient transfer learning
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-8 mx-auto">
         {% include figure.liquid loading="eager" path="assets/img/teaser.png" title="The whole process" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -54,9 +54,9 @@ In such a context, simulation and especially synthetic data generation appears a
 </div>
 
 ### Generating changes ? How it works ?
-Leveraging Stable Diffusion and ControlNet through long training on VHR aerial images, we create an end-to-end "change inpainting" pipeline.
+Leveraging Stable Diffusion and ControlNet through long training on VHR aerial images, we create an end-to-end "change inpainting" pipeline. Diffusion models allow to produce realistic and various textures to fulfill the original image while the control module is responsible for monitoring the semantic composition of the generated image. 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-8 mx-auto">
         {% include figure.liquid loading="eager" path="assets/img/pipeline.png" title="The generation pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -66,13 +66,15 @@ Leveraging Stable Diffusion and ControlNet through long training on VHR aerial i
 
 
 ### Transfer learning to enhance real use-cases change detection
+We assess the quality of our hybrid dataset by using it in 4 transfer learning schemes : sequential, mixed, low data regime and zero-shot. Evaluation is done on 5 different real target change detection datasets.
+In all cases, the performance is improved thanks to the pre-training, proof of the contribution and versatility of **FSC-180k**. We outperform scores obtained by using an other synthetic dataset, SyntheWorld.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sequential_bcd.jpg" title="Sequential Learning in Binary Change Detection" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lowdata_scd.jpg" title="Low Data Regime in Semantic Change Detection" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
