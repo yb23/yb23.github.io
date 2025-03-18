@@ -438,7 +438,7 @@ ninja.data = [{
           title: 'The Change You Want To Detect',
           description: "Semantic Change Detection In Earth Observation With Hybrid Data Generation",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/hyscdg/";
+              window.location.href = "/projects/the-change-you-want-to-detect/";
             },},{
         id: 'social-email',
         title: 'email',
