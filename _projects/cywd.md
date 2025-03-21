@@ -29,7 +29,7 @@ images:
 
 <div class="row justify-content-center">
     <div class="col-auto">
-        <a href="#" target="_blank">
+        <a href="https://arxiv.org/abs/2503.15683" target="_blank">
         <button class="btn btn-info p-2 rounded"><i class="ai ai-arxiv" style="font-size:2em;"></i>&nbsp;&nbsp;<b style="font-size:1.5em;">Paper</b></button>
         </a>
     </div>
