@@ -403,18 +403,18 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-our-article-was-accepted-to-cvpr-2025-more-details-will-be-available-within-the-next-weeks",
+    },{id: "news-our-article-was-accepted-to-cvpr-2025-more-details-will-be-available-within-the-next-weeks",
           title: 'Our article was accepted to CVPR 2025 ! (more details will be available...',
           description: "",
           section: "News",},{id: "news-i-presented-my-work-on-hybrid-semantic-change-data-generation-during-the-journée-de-la-recherche-organized-by-ign-ensg-and-université-gustave-eiffel",
           title: 'I presented my work on Hybrid Semantic Change Data Generation during the Journée...',
           description: "",
-          section: "News",},{id: "projects-project-6",
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
