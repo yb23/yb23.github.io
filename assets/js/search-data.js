@@ -408,11 +408,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-our-article-was-accepted-to-cvpr-2025-more-details-will-be-available-within-the-next-weeks",
+            },},{id: "news-our-article-was-accepted-to-cvpr-2025-more-details-will-be-available-within-the-next-weeks",
           title: 'Our article was accepted to CVPR 2025 ! (more details will be available...',
+          description: "",
+          section: "News",},{id: "news-i-presented-my-work-on-hybrid-semantic-change-data-generation-during-the-journée-de-la-recherche-organized-by-ign-ensg-and-université-gustave-eiffel",
+          title: 'I presented my work on Hybrid Semantic Change Data Generation during the Journée...',
           description: "",
           section: "News",},{id: "projects-project-6",
           title: 'project 6',
