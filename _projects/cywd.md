@@ -40,7 +40,7 @@ images:
     </div>
     <div class="col-auto">
         <a href="https://huggingface.co/datasets/Yanis236/fsc-180k" target="_blank">
-            <button class="btn btn-info p-2 rounded" disabled><img alt="Hugging Face's logo" style="height:2em;" src="/assets/img/huggingface_logo.svg">&nbsp;&nbsp;<b style="font-size:1.5em;">Dataset</b></button>
+            <button class="btn btn-info p-2 rounded"><img alt="Hugging Face's logo" style="height:2em;" src="/assets/img/huggingface_logo.svg">&nbsp;&nbsp;<b style="font-size:1.5em;">Dataset</b></button>
         </a>
     </div>
 </div>
@@ -62,8 +62,8 @@ In such a context, simulation and especially synthetic data generation appears a
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img-comparison-slider>
-          {% include figure.liquid path="assets/img/IMG2.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
-          {% include figure.liquid path="assets/img/IMG1.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
+          {% include figure.liquid path="assets/img/fsc/020183_0.png" class="img-fluid rounded z-depth-1" slot="first" %}
+          {% include figure.liquid path="assets/img/fsc/020183_1.png" class="img-fluid rounded z-depth-1" slot="second" %}
         </img-comparison-slider>
     </div>
     <div class="col-sm mt-3 mt-md-0">
