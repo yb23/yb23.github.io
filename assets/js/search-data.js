@@ -421,7 +421,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/yanis-benidir-788106132 your LinkedIn user name", "_blank");
+          window.open("https://www.linkedin.com/in/yanis-benidir-788106132", "_blank");
         },
       },{
       id: 'light-theme',
